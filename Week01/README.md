@@ -154,3 +154,24 @@ classes/functions/code with changing only one time the code of the mother
 instead of many times at all children
 2. **Having knowledge of the code**
 3. **???**
+
+### Practicum - 26.02.18
+#### `exampleN.cpp` contain interesting uses and
+When we a structure named Student, we have a object form type Student  
+Just like `class`  
+
+Structures could have default values  
+
+When we have dynamically allocated string in object, we count make another
+copy of the struct which has a pointer which leads to the same memory  
+Therefore there is problem if we try to delete that memory 2 times in the copy
+and with out
+
+Another use case of unions:  
+The see the representation of float numbers  
+```c++
+union Num{
+    int num;
+    float numL;
+}
+```
