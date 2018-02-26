@@ -5,7 +5,7 @@ semester or example of some c++ syntax or feature unknown to me until that point
 ## Topics:
   * `Structures`, `Unions`, `Typedef`, `Enumerations`: Week 1
 #### Some useful links:
-* [`Course practicum repo`]()  
+* [`Course practicum repo`](https://github.com/VasiPeycheva/Object-Oriented-Programming--2017-2018)  
 * [C++ Data Types ranges](https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm)
 * [Operator Precedence](http://en.cppreference.com/w/cpp/language/operator_precedence)
 * [String.h docs](http://www.cplusplus.com/reference/cstring/)
