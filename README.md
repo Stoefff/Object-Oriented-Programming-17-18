@@ -4,6 +4,7 @@ The code is solution of the various task, homeworks  given throughout the
 semester or example of some c++ syntax or feature unknown to me until that point
 ## Topics:
   * `Structures`, `Unions`, `Typedef`, `Enumerations`: Week 1
+  * `Files`: Week 2
 #### Some useful links:
 * [`Course practicum repo`](https://github.com/VasiPeycheva/Object-Oriented-Programming--2017-2018)  
 * [C++ Data Types ranges](https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm)
