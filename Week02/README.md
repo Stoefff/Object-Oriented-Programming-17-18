@@ -4,14 +4,16 @@
 `TODO:` Check flags values!  
 **Why we need files? :**  
 * Persistence of programs - to store information which can be used even after
-* restarting the program  
+* Loading configurations, information, etc,  
+
 Downside of storing in files at the hard disc:  
-    Very slow because of the hard disc read/write time
+Very slow because of the hard disc read/write time
 
 ### fstream library - lib to handle handle files
 * `Ifstream` - input stream from the file to us || just we `read` from the file
 * `Ofstream` - output stream from the file to us || just we `write` in the file
 * `fstream` - overall  
+
 We can use them to load files, close files
 
 **Types of files interpretation (different way of handling them):**  
@@ -65,6 +67,7 @@ The iteration pointer is only one but c++ gives abstraction with 2 pointers:
 * setg - set get position
 * seekg
 * seekp  
+
 **Warning: seek could go after the eof!**
 
 ### Text vs. Binary
@@ -72,8 +75,8 @@ Text files are preferred because we can see the information
 Binary files are preferred for compactness, but hardly readable
 
 ### Binary representation dependence of processors:
-* LittleEndion - 5432 - is represented as 2345 in the memory (INTEL)
-* BigEndion 5432 - is represented as 5432 in the memory
+* Little Endian - 5432 - is represented as 2345 in the memory (INTEL)
+* Big Endian 5432 - is represented as 5432 in the memory
 
 ### .h (header file) vs .cpp
 * Headers contain just definition
