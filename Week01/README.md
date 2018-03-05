@@ -1,22 +1,22 @@
-## Niki's practical exercise - 21.02.08  
+## Niki's seminar - 21.02.08  
 ### Method of grading
 Grading will be focused even more on good code, and not pure functionality
 #### Semester
 1. 4 Homeworks - `20%`
 2. 2 Exams - `10%`  
-3. 1 Project - `30%`
+3. 1 Project - `30%`  
 **40% on exams and 50 % on homeworks for 3 for the above**
 
 #### Session
 1. Theory exam - `15%`
-2. Practical exam - `25%`
+2. Practical exam - `25%`  
 There will be a homework defense which could take or give points  
 We chose one of the homeworks and they give us a task from it
 **40% for 3 on the above**
 
 ### Structures
-**The following things are in common between c and c++**
-**There is 1 major difference between structures in c and c++**
+**The following things are in common between c and c++**  
+**There is 1 major difference between structures in c and c++**  
 Simplified definition: `many data types in the same place in the memory`
 ```c++
 //Convention is that structures are written with caps case
@@ -74,13 +74,14 @@ typedef struct{
 } Student;
 This way c++ deals with c struct Student s1;
 ```
-Why 32 bits processors use only 4GB of ram?  
+**Why 32 bits processors use only 4GB of ram?**  
 Because 32 bits processors have a "word" of 4 byte  
 => a pointer in the memory is 4 bytes or as unsigned int or 4 billions  
 => 4 billions max addresses in the memory  
 
 Because most processors today are 64 bits - there is something called `alignment`  
 **Check how alignment works and why(short answer because of the processors word)**  
+
 Which leaves some memory after the vars at the consistent memory of the struct  
 **And we should use the biggest in terms of memory vars at beginning to the lowest**  
 ```c++
@@ -136,11 +137,11 @@ enum Month{
 }
 ```
 ## Armqnov lecture notes - 22.02.18
-### "&" VS "8"
+### "&" VS " * "
 Both lead to some memory
 #### Difference
 1. & is constant, * is not constant  
-2. * could be NULL, & could not be 0  
+2. * could be NULL, & could not be NULL  
 
 ### Some tips and tricks for OOP design
 * We should always consider the probable lifetime of the code your writing  
@@ -156,18 +157,17 @@ instead of many times at all children
 3. **???**
 
 ### Practicum - 26.02.18
-#### `exampleN.cpp` contain interesting uses and
+#### `exampleN.cpp` contain interesting uses cases
 When we a structure named Student, we have a object form type Student  
 Just like `class`  
 
-Structures could have default values  
+Structures could have default values, but it is not a good practice  
 
 When we have dynamically allocated string in object, we count make another
 copy of the struct which has a pointer which leads to the same memory  
 Therefore there is problem if we try to delete that memory 2 times in the copy
 and with out
-
-Another use case of unions:  
+#### Another use case of unions:  
 The see the representation of float numbers  
 ```c++
 union Num{
