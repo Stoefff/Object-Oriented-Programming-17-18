@@ -4,17 +4,17 @@ Grading will be focused even more on good code, and not pure functionality
 #### Semester
 1. 4 Homeworks - `20%`
 2. 2 Exams - `10%`  
-3. 1 Project - `30%`  
+3. 1 Project - `30%`   
 **40% on exams and 50 % on homeworks for 3 for the above**
 
 #### Session
 1. Theory exam - `15%`
 2. Practical exam - `25%`  
 There will be a homework defense which could take or give points  
-We chose one of the homeworks and they give us a task from it
+We chose one of the homeworks and they give us a task from it   
 **40% for 3 on the above**
 
-### Structures
+## Structures
 **The following things are in common between c and c++**  
 **There is 1 major difference between structures in c and c++**  
 Simplified definition: `many data types in the same place in the memory`
