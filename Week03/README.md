@@ -7,16 +7,16 @@
 
 ### Types of files:
 * File types by position:
- * Fixed position
-  * Streams - stream from the keyboard, the network
- * Not fixed position - normal files
+  * Fixed position
+    * Streams - stream from the keyboard, the network
+  * Not fixed position - normal files
 * File by operation type:
- * Only `READ` files
- * Only `WRITE` files
- * `READ` and `WRITE` files
+  * Only `READ` files
+  * Only `WRITE` files
+  * `READ` and `WRITE` files
 * By data types
- * Text files
- * Binary files  
+  * Text files
+  * Binary files  
 
 ### File identifier || File names:
 * Root path(address)
