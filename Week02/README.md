@@ -94,7 +94,8 @@ We could use a reader function to populate a struct from a file
 
 **`TODO:` Check Vasi's repo from more example code**
 
-## Armqnov lecture - Structures
+### Armqnov lecture - 01.03.18
+## Structures
 Convention is that objects and vars are written with low case  
 Structures and classes are written with CAPS  
 
