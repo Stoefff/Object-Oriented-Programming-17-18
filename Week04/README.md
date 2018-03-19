@@ -106,3 +106,10 @@ Easy solution for this problem:
 
 ```
 **Never seek() or get() in text files**
+
+### Practicum - 19.02.18
+
+### How to read a line from a text file
+* std::getline(<stream>, <buffer>)
+* file.getline;
+* ofstr.write("etg", 3)
