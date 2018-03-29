@@ -22,9 +22,9 @@ Good way of designing the structure of the project is using `UML` diagrams!
 
 ### An example for a typical(stupid) class:
 ```c++
-class Comuter{
+class Computer{
 private:
-    CPU intel; //CPU, RAM, ... are classes
+    CPU intel; //CPU, RAM, .. are classes
     RAM broadcom;
     OS os;
     Parts* perifery;
@@ -34,7 +34,8 @@ public:
     bool playDevice(Device d);
     result runProgram(Pragoram p);
 }
-``
+```
+
 #### Designing hierarchy
 One of the major things when designing the hierarchy of a certain object is to
 break the object in certain `USEFUL` way meaning a normal IRL representaion
