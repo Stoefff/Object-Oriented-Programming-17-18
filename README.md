@@ -4,11 +4,14 @@ The code is solution of the various task, homeworks  given throughout the
 semester or example of some c++ syntax or feature unknown to me until that point
 ## Topics:
   * `Structures`, `Unions`, `Typedef`, `Enumerations`: Week 1
-  * `Files`: Week 2
+  * `Files`: Week 2 to Week 4
+  * `OOP design`: Week 4 to
+  * `Classes and its G4` : Week 4 to
 #### Some useful links:
-* [`Course practicum repo`](https://github.com/VasiPeycheva/Object-Oriented-Programming--2017-2018)  
+* [`Practicum repo`](https://github.com/VasiPeycheva/Object-Oriented-Programming--2017-2018)  
 * [C++ Data Types ranges](https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm)
 * [Operator Precedence](http://en.cppreference.com/w/cpp/language/operator_precedence)
+* [Good cpp resources](https://www.geeksforgeeks.org/c-plus-plus/)
 * [String.h docs](http://www.cplusplus.com/reference/cstring/)
 * [Resources](https://learn.fmi.uni-sofia.bg/course/view.php?id=3700)  
 * [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)  
