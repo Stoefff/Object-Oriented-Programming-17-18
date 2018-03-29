@@ -13,7 +13,8 @@ its information
 2. Encapsulation
 3. Modularity - the logical and useful polymorphism and also easy adding of  
 classes. methods and features to the hierarchy  
-4. Decoupling - Classes should not depend on one another  
+4. Decoupling - Classes should not depend on one another   
+   
 [This could be useful](https://anampiu.github.io/blog/OOP-principles/)  
 
 **Common mistake is writing the code and not thinking about the OOP design and
@@ -54,7 +55,8 @@ Most of time was wasted: He revisited the last lecture
 
 #### Stream flags and options:
 * .good();
-* .bad();  
+* .bad();   
+
 [All this cancer could be found here](http://www.cplusplus.com/doc/tutorial/files/)  
 
 #### Difference between .open() and .good()
@@ -88,10 +90,10 @@ Return `streampos` pointing to where is the pointer for reading is
 
 #### seekg() and seekp() - sets the pointers for reading and writing
 * `seek()` could have flags to:
- * `ios::curr` - starts counting from the current position, adds the given number
+* `ios::curr` - starts counting from the current position, adds the given number
 from the current position of the pointer  
 
-#### .flush()
+#### flush()
 It flushes the buffer into the file, meaning it ensures us that the information
 in the buffer is written it the file and buffer is now clean and empty  
 
@@ -111,6 +113,6 @@ Easy solution for this problem:
 ### Practicum - 19.02.18
 
 ### How to read a line from a text file
-* std::getline(<stream>, <buffer>)
+* std::getline(stream, buffer)
 * file.getline;
-* ofstr.write("etg", 3)
+* ofstream.write("etg", 3)
