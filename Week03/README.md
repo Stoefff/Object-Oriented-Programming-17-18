@@ -1,9 +1,9 @@
 ### Niki's seminar - 07.03.18
 
-### Preprocessor -
+## Preprocessor
 
 
-### Semerdjiev(Armqnov) lecture - 08.03.18
+## Semerdjiev(Armqnov) lecture - 08.03.18
 
 ### Types of files:
 * File types by position:
@@ -36,7 +36,7 @@
 
 All files are actually binary and extension just tell us how to interpret the file   
 
-### `ios::app` vs `ios::ate` - these are modes, not flags
+### `ios::app` vs. `ios::ate` - these are modes, not flags
 * Both flags sets the pointer at the end of the opened  
 * `app` doesn't let us go back from the end  
 * `ate` could go back to already written information back in the file  
@@ -58,7 +58,9 @@ as big as not deleting a allocated memory**
 #### `streampos`
 Type for storing the size when using the pointers
 
-#### stricmp() - case insensitive comparing
+#### Case insensitive strings comparing:
+* stricmp() - for Windows does not work in Linux
+* strcasecmp() - for Linux does not work in Windows  
 
 ### Enums:
 Example for tricky usage
