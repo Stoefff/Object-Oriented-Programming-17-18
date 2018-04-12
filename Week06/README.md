@@ -129,11 +129,21 @@ const Student& Student::operator=(const Student& other){
     return * this;
 }
 ```
+
+### Private values details
+So 2 objects of the same class could see each other private variable and methods
+because they are from the same class
+
+### `const` return in redefinition of `=` operator
+So we write the first const in`const String& String operator=(const String&){}`
+Because we can use this `a = b = c` and this const protects a when its given
+b = c, ensuring it cannot be changed
+
 ### Armqnov lecture - 29.03.18
 
 ## Important NOTE:
 **`OOP is just like teen sex. Everyone talks about but almost no one is doing
-it properly!`** - Armqnov, 2018
+it properly!`** - Armqnov, 2018 :trollface:
 
 ## Life cycle, copy constructors and exceptions
 
@@ -221,3 +231,15 @@ Student::Student(int age, int dab, const Address a, const char* name)
     }
 }
 ```
+
+### Practice - 02.04.18
+
+### `delete` vs. `delete[]`
+When initializing memory in the heap, the OS makes META data about the heap used
+when deleting. So when when we just `delete` an array only the meta-data is
+deleted. When using `delete[]` for heap array, the OS reads the this meta-data
+and this way it knows how many addresses to free. When we dynamically allocated
+a class, for every one of its different variable it creates meta-data
+
+**We can not pass a variable of type stream, because the stream object does not
+have a copy constructor**
