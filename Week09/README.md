@@ -28,8 +28,8 @@ Does not change implementation
 **Frequently asked question in interviews**
 
 ### Casting inherited classes to derived class
-Just gets the derived class data form the inherited
-This does not work with array of classes
+Just gets the derived class data form the inherited  
+This does not work with array of classes  
 **This cast could be automatic - big underwater stone xD**
 
 ### Casting with pointers
