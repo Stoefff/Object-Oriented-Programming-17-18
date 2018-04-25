@@ -111,11 +111,11 @@ Some useful features:
 * Nested passing from the bottom to the top in the stack
 * Could catch a `throw "An exception"; `with `catch(const char* msg)` and it
 passes the const char* so it could be cout-ed
-* Always use catch(...) { throw; } to pass the exception above in the stack
+* Always use `catch(...) { throw; }` to pass the exception above in the stack
 
 **Destructor should never throw exceptions**
 
-**C++ std method
+**C++ std method**
 
 ### Practicum - 16.04.18
 
@@ -131,14 +131,14 @@ We use in order not to copy memory constantly
 **`Fitness() = delete[]` blocks default constructor**
 
 ### Using unnamed vs. named object to initialize the next object in array
-* Using name(with Car temp(...)) and then using `=` to define it is very slow
+* Using name(with `Car temp(...)`) and then using `=` to define it is very slow
 because this thing calls 2 constructors and 2 copy constructors
 * Using unnamed object like `array[i] = Car(...)` is optimized to use just one
 constructor to do the same work
 
 ### `assert()`
 If the assert condition fails, the program have failed **Logically in `OUR` code**
-somewhere and we should handle the error somewhere. It is a garantie of the
+somewhere and we should handle the error somewhere. It is a warranty of the
 validity of the code, and system
 * Used for debugging
 * Used only in `Debug` mode and **NOT** in `Release` mode - it is deleted there
