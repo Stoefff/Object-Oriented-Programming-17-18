@@ -6,11 +6,11 @@ internal logic or models - **It could become a security issue**
 
 ### Dynamic array or `Vector`
 * The same in c++
-* Very fast because of the linear podredba in the memory
+* Very fast because of the linear arrangement in the memory
 * The only con is the moment when you should resize, because of the copied memory
 
 ## Inheritance (continue)
-* Useful when trying to find whether two classes are podobni
+* Useful when trying to find whether two classes are similar
 * Logically can be changed with **inherited `IS` the derived**
 
 ### Access modifiers
@@ -50,7 +50,7 @@ an object `is` another or `has` another class
 
 ### Armqnov lecture - 19.04.18
 
-## Namespaces, `static`, templates
+## Namespaces, `static`
 
 ### The idea of namespaces
 The idea is that we should have conflicts of names when we include a lot of code
