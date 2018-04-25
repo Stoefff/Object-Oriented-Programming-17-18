@@ -2,7 +2,7 @@
 
 ## Exceptions
 Used to handle exceptional events which happened in the code  
-Use the keyword `throw` to push an error, returns like a `return;`
+Use the keyword `throw` to push an error, returns like a `return;`  
 **Slow, but convenient**  
 
 ### How does it work
@@ -12,7 +12,7 @@ to handle the exception. If there such one present, the programs stops from the
 main
 
 ### Try/catch blocks
-**Many catch blocks are possible for handling different exceptions**
+**Many catch blocks are possible for handling different exceptions**  
 Always catch exceptions with `&`
 ```c++
 // Throw is written in the constructor block
