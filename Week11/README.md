@@ -47,7 +47,7 @@ So when we use virtual function, we say they are dynamically linked, because
 the value of the `vtpr` is set in the `runtime`, because the compiler, does not
 know of which derived class the pointer will be. This determined runtime, because
 the object is created dynamically(in the runtime) and the compiler apparently
-determines of which class is an object, once it is created in the memory.
+determines of which class is an object, once it is created in the memory.  
 
 **There is only 1 `vptr` for the current object, not 2 - one for the `Base` class
 and on for the `Derived` class - this is incorrect**
@@ -63,7 +63,8 @@ searches for a pointer to the virtual table, оr а `vptr`, which leads to the
 
 ### The virtual table
 The virtual table contains all functions of the class and next to them
-their address in the memory.
+their address in the memory.  
+
 **The virtual table is per class, not per object**
 
 ![image](https://scontent.fsof2-1.fna.fbcdn.net/v/t1.15752-9/32458527_1716645798410998_8413055370460659712_n.jpg?_nc_cat=0&oh=806b9c4bcb90a57fef9fb9bcc468d8e2&oe=5B8A3C68)
