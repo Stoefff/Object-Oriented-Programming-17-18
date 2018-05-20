@@ -238,10 +238,10 @@ Questions:
 **The compiler optimizes it**
 2. Is the whole meaning of B is just to be a guard - **Yes**
 
-### Vasi'a and Paco's seminar
+### Vasi's and Paco's practice
 Actually statically linked functions there are not supposed to be over-ride.  
 Dynamically linked functions means the opposite.  
-If a function is`virtual` it **IS** be `virtual` all the way down if hierarchy. Every class
+If a function is`virtual` it **IS** `virtual` all the way down if hierarchy. Every class
 has its very own `vptr` to a table - which is different for every class and when
 we call for a function of the derived class, by the base pointer, it looks in
 the table of the derived class, and calls of that functions
