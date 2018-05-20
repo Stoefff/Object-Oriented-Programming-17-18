@@ -24,7 +24,7 @@ B:B(int i, int j):a(i, j){
 
 ```
 ### Pointer of pointer to objects (Class**)
-* **Not in the sense of array of arrays of objects**  
+**Not in the sense of array of arrays of objects**  
 **The meaning is pointer to pointers which are dynamically allocated objects
 without calling default constructor but just creating objects only when valid
 data for the objects is passed**
@@ -44,7 +44,7 @@ We use this when we want to inherit 2 classes instead of one
 If we inherit 2 functions with same name there is a problem  
 The solution is just to say form which base class is the function we want to call
 
-### `Diamond problem` for interviews
+### `Diamond problem` - for interviews
 If we have 2 classes that inherit the same base class, and the their is a forth
 class which inherits the 2 already inherited. So if we want to call a function,
 which is a present 3 times in this class, we choose which to call by just saying
@@ -86,7 +86,7 @@ This problem is solved with abstract classes
 
 ### Lecture - 26.04.18 - **Missed**
 
-### Practice - 30.04.18
+### Vasi's and Paco's practice - 30.04.18
 
 ## Inheritance
 
@@ -129,3 +129,4 @@ We initialize const variables with initializing list?
 We use a `static int count` to count the objects.
 
 ### If we want to use dynamic array but can not use default constructor
+We just do `Class**`
