@@ -83,3 +83,49 @@ This problem is solved with abstract classes
 * Could be inherited many times
 * There just plans
 * Cant have instances
+
+### Lecture - 26.04.18 - **Missed**
+
+### Practice - 30.04.18
+
+## Inheritance
+
+### C++ inheritance
+* public
+* protected
+* private  
+
+**[Table of access modifiers](https://www.google.bg/search?q=c%2B%2B+inheritance+access+modifier+table&safe=off&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj6t9fS8eHaAhVBBSwKHaajDWoQ_AUICigB#imgrc=JfS5C5wix2XGuM:)**  
+
+### Semantic inheritance
+* `is-a` - inheritance
+* `has-a` - composition
+* `is-implemented-in-terms-of` - private inheritance
+
+**There are very good notes in Vasi's repo**  
+
+### Types of composition
+* Normal composition - The bottom class has a object of other class and this
+object is responsible for the data of other class object
+* Association - not full composition - somewhere in the code we have object of
+another class, but it is not a variable of the class - we don not have dependency
+between the classes
+* Aggregation - We have a object of another class, but is only a pointer to it,
+meaning the class is not responsible for the data to which the pointer is leading
+to. We are dependent on the data of the class, and this could cause some problems
+because 2 objects of this class could have the same pointer, and change in the
+one class could lead to unwanted change in the second
+
+### Overriding vs. Overloading 2
+* Overloading - difference made in compile time
+* Overriding - difference made in runtime  
+
+### Initializing `const` variables in classes - immutable
+We initialize const variables with initializing list?
+
+### Initializing `static` variable in classes - reference counting
+
+### What we do when we want to have exactly 10 objects of a class
+We use a `static int count` to count the objects.
+
+### If we want to use dynamic array but can not use default constructor
