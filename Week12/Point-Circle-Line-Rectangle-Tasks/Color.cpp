@@ -1,13 +1,13 @@
 #include "Color.h"
 #include <iostream>
+#include <cstring>
 
 using namespace std;
 
-char* strColor[] = { "black", "blue", "red", "green", "yellow", "orange", "brown", "purple", "pink" };
+ char* strColor[] = { "black", "blue", "red", "green", "yellow", "orange", "brown", "purple", "pink" };
 
-Color strToColor(char choice[maxColorSize])
-{
-	for (int i = 0; i < COLOR_COUNT; i++) 
+Color strToColor(char choice[maxColorSize]){
+	for (int i = 0; i < COLOR_COUNT; i++)
 	{
 		if (strcmp(choice, strColor[i]) == 0)
 			return (Color)i;
@@ -15,8 +15,7 @@ Color strToColor(char choice[maxColorSize])
 	return INVALID_COLOR;
 }
 
-
-char* colorTostr(Color c) {
+char* colorTostr(Color c){
 	for (int i = 0; i < COLOR_COUNT ; i++) {
 		if (i == c)
 			return strColor[i];
@@ -24,6 +23,6 @@ char* colorTostr(Color c) {
 	return "invalid";
 }
 
-void printColor(Color c) {
+void printColor(Color c){
 		cout << colorTostr(c) << endl;
 }

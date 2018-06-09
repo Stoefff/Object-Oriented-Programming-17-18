@@ -1,20 +1,22 @@
 #include <iostream>
-#include "Line.h"
+#include "Circle.h"
 #include "Rectangle.h"
-#include "Color.h"
 
 using namespace std;
 
 int main() {
+
+	size_t size = 2; // Count of figures
+	Point cicleCenter(1, 2);
+	Point rectCenter(3, 4);
+	Color color = strToColor("blue");
+
+
+	Figure** container = new Figure*[size];
+	container[0] = new Circle(cicleCenter, color, 3);
+	container[1] = new Rectangle(rectCenter, color, 2, 3);
+
 	
-	Point p1(1, 2);
-	Point p2(3, 4);
 
-	Line l1(p1, p2, RED);
-	l1.print();
-
-	Rectangle rec(p1, 3, 4, BLUE);
-	
-
- return 0;
+ 	return 0;
 }

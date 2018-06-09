@@ -2,28 +2,28 @@
 #include "Rectangle.h"
 using namespace std;
 
-Rectangle::Rectangle(Point P1, int recWidth, int recHeight, Color recColor)
-	      : Oxy(P1)
+Rectangle::Rectangle(Point xy, Color recColor, int recWidth, int recHeight)
+	      : Figure(xy, recColor)
 		  , width(recWidth)
 		  , height(recHeight)
-		  , recColor(recColor)
 {}
 
 Rectangle::~Rectangle()
 {}
 
-void Rectangle::translate(int horizontal, int vertical)
-{
-	Oxy.translate(horizontal, vertical);
-}
-
-const void Rectangle::print() const
-{
-	cout << "rectangle "
-		<< Oxy.getX() << " "
-		<< Oxy.getY() << " "
+void Rectangle::print() const{
+	cout << "Rectangle = "
+		<< center.getX() << " "
+		<< center.getY() << " "
 		<< width << " "
-		<< height << " ";
-	printColor(recColor);
+		<< height << endl;
+	printColor(color);
 }
 
+void Rectangle::printPerimeter() const {
+	cout << "Rectangle's perimeter = " << 2 * height + 2 * width << endl;
+}
+
+void Rectangle::printArea() const {
+	cout << "Rectangle's area = " << height * width << endl;
+}

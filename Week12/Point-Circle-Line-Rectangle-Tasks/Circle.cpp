@@ -3,27 +3,28 @@
 
 using namespace std;
 
+const float pi = 3.14;
 
-Circle::Circle(Point Oxy, int rad, Color cirColor)
-	:center(Oxy)
+Circle::Circle(Point xy, Color cirColor, int rad)
+	:Figure(xy, cirColor)
 	,radius(rad)
-	,circleColor(circleColor)
 {}
 
 Circle::~Circle()
 {}
 
-void Circle::translate(int horizontal, int vertical)
-{
-	center.translate(horizontal, vertical);
+void Circle::print() const{
+	cout << "Circle "
+		<< center.getX() << " "
+		<< center.getY() << " "
+		<< radius << '\n';
+	printColor(color);
 }
 
-const void Circle::print() const
-{
-	cout << "circle " <<
-		center.getX() << " "
-		<< center.getY() << " "
-		<< radius << " ";
-	printColor(circleColor);
+void Circle::printPerimeter() const{
+	cout << "Circles' perimeter = " << 2 * pi * radius << endl;
+}
 
+void Circle::printArea() const {
+	cout << "Circles' area = " << pi * radius * radius << endl;
 }

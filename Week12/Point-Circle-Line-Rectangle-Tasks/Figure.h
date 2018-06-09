@@ -1,20 +1,24 @@
 #ifndef __FIGURE__HEADER
 #define __FIGURE__HEADER
-#include "Point.h"
 
+#include "Point.h"
+#include "Color.h"
 
 class Figure{
 public:
-    Figure(Point, const char*);
+    Figure(Point, Color);
     virtual ~Figure();
+    //Defaut copy costructor and operator = would work?
 
-    virtual void print() = 0;
-    virtual void getPerimeter() = 0;
-    virtual void getArea() = 0;
+    virtual void print() const = 0;
+    virtual void printPerimeter() const = 0;
+    virtual void printArea() const = 0;
 
-private:
+    void translate(int, int);
+
+protected:
     Point center;
-    char* color;
+    Color color;
 };
 
 #endif

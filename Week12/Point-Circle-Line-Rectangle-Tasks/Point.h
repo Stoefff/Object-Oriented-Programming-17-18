@@ -1,8 +1,7 @@
 #ifndef __POINT__HEADER__INCLUDED__
 #define __POINT__HEADER__INCLUDED__
 
-class Point
-{
+class Point{
 public:
 	Point(int x, int y); //Constructor
 	~Point();  //Destructor
@@ -18,4 +17,4 @@ private:
 };
 
 
-#endif	
+#endif

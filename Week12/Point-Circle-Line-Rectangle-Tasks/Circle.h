@@ -6,11 +6,12 @@
 
 class Circle: public Figure{
 public:
-	Circle(Point center, int radius, Color circleColor);
+	Circle(Point, Color, int);
 	virtual ~Circle();
 
-	void translate(int horizontal, int vertical);
-	const void print() const;
+	virtual void print() const ;
+	virtual void printPerimeter() const ;
+	virtual void printArea() const ;
 
 private:
 	int radius;
