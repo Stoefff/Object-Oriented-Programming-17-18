@@ -1,0 +1,113 @@
+# depslib dependency file v1.0
+1463548526 source:d:\dropbox\fmi\oop-16\inheritance\circle.cpp
+	"circle.hpp"
+	<iostream>
+
+1463548409 d:\dropbox\fmi\oop-16\inheritance\circle.hpp
+	"point.hpp"
+	"shape.hpp"
+
+1463545465 d:\dropbox\fmi\oop-16\inheritance\point.hpp
+	<iostream>
+
+1463548362 d:\dropbox\fmi\oop-16\inheritance\shape.hpp
+	"point.hpp"
+
+1463548592 source:d:\dropbox\fmi\oop-16\inheritance\filled_circle.cpp
+	"filled_circle.hpp"
+	<iostream>
+
+1463548423 d:\dropbox\fmi\oop-16\inheritance\filled_circle.hpp
+	"circle.hpp"
+	<string>
+
+1463571472 source:d:\dropbox\fmi\oop-16\inheritance\main.cpp
+	"shape.hpp"
+	"rectangle.hpp"
+	"circle.hpp"
+	"filled_circle.hpp"
+	"ShapeFactory.hpp"
+	<iostream>
+	<fstream>
+
+1463569731 d:\dropbox\fmi\oop-16\inheritance\rectangle.hpp
+	"point.hpp"
+	"shape.hpp"
+
+1463543909 source:d:\dropbox\fmi\oop-16\inheritance\point.cpp
+	"point.hpp"
+	<iostream>
+
+1463548568 source:d:\dropbox\fmi\oop-16\inheritance\rectangle.cpp
+	"rectangle.hpp"
+	<iostream>
+
+1463548628 source:d:\dropbox\fmi\oop-16\inheritance\shape.cpp
+	"shape.hpp"
+	"ShapeFactory.hpp"
+	<iostream>
+
+1463548920 d:\dropbox\fmi\oop-16\inheritance\shapefactory.hpp
+	"shape.hpp"
+	<string>
+
+1463547632 d:\dropbox\fmi\oop-16\inheritance\baba.hpp
+	"shape.hpp"
+
+1463548028 source:d:\dropbox\fmi\oop-16\inheritance\baba.cpp
+	"baba.hpp"
+	<iostream>
+
+1525889183 source:d:\dropbox\fmi\17-18\нно\l07\inheritance\circle.cpp
+	"circle.hpp"
+	<iostream>
+
+1525888834 d:\dropbox\fmi\17-18\нно\l07\inheritance\circle.hpp
+	"point.hpp"
+	"shape.hpp"
+
+1525888991 d:\dropbox\fmi\17-18\нно\l07\inheritance\point.hpp
+	<iostream>
+
+1525889069 d:\dropbox\fmi\17-18\нно\l07\inheritance\shape.hpp
+	"point.hpp"
+
+1525889671 source:d:\dropbox\fmi\17-18\нно\l07\inheritance\main.cpp
+	"shape.hpp"
+	"rectangle.hpp"
+	"circle.hpp"
+	"filled_circle.hpp"
+	"ShapeFactory.hpp"
+	<iostream>
+	<fstream>
+
+1525889057 d:\dropbox\fmi\17-18\нно\l07\inheritance\rectangle.hpp
+	"point.hpp"
+	"shape.hpp"
+
+1525889973 d:\dropbox\fmi\17-18\нно\l07\inheritance\filled_circle.hpp
+	"circle.hpp"
+	<string>
+
+1525889128 d:\dropbox\fmi\17-18\нно\l07\inheritance\shapefactory.hpp
+	"shape.hpp"
+	<string>
+
+1525889193 source:d:\dropbox\fmi\17-18\нно\l07\inheritance\point.cpp
+	"point.hpp"
+	<iostream>
+
+1525889204 source:d:\dropbox\fmi\17-18\нно\l07\inheritance\rectangle.cpp
+	"rectangle.hpp"
+	<iostream>
+
+1525889225 source:d:\dropbox\fmi\17-18\нно\l07\inheritance\shape.cpp
+	"shape.hpp"
+	"ShapeFactory.hpp"
+	<iostream>
+
+1525889986 source:d:\dropbox\fmi\17-18\нно\l07\inheritance\filled_circle.cpp
+	"filled_circle.hpp"
+	<iostream>
+	<cstring>
+
